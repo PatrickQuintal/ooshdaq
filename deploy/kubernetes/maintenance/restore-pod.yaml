@@ -1,0 +1,72 @@
+# Offline maintenance template; do not add this Pod to the base kustomization.
+# Scale the Deployment to zero and wait for its Pod and RWOP mounts to disappear
+# before selecting the backup filename below. Use the exact same operator-built
+# image as the serving Deployment.
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ooshdaq-offline-restore
+  labels:
+    app.kubernetes.io/name: ooshdaq
+    app.kubernetes.io/component: offline-restore
+spec:
+  restartPolicy: Never
+  activeDeadlineSeconds: 1800
+  automountServiceAccountToken: false
+  enableServiceLinks: false
+  terminationGracePeriodSeconds: 60
+  securityContext:
+    runAsNonRoot: true
+    runAsUser: 65532
+    runAsGroup: 65532
+    fsGroup: 65532
+    fsGroupChangePolicy: OnRootMismatch
+    seccompProfile:
+      type: RuntimeDefault
+  containers:
+    - name: restore
+      # $OOSHDAQ does not publish an official image. Build and load this tag
+      # yourself, or override it exactly as you did for the serving Deployment.
+      image: ooshdaq:local
+      imagePullPolicy: Never
+      # The maintenance subcommand is parsed before serving-mode auth config;
+      # this value also makes accidental serving startup fail closed.
+      env:
+        - name: OOSHDAQ_AUTH_MODE
+          value: maintenance
+      args:
+        - maintenance
+        - restore
+        - --backup=/backups/REPLACE_WITH_VERIFIED_BACKUP.sqlite
+        - --database=/data/ooshdaq.sqlite
+        - --retain-replaced=/backups/REPLACE_WITH_PRE_RESTORE_NAME.sqlite
+      resources:
+        requests:
+          cpu: 100m
+          memory: 128Mi
+        limits:
+          cpu: "1"
+          memory: 256Mi
+      securityContext:
+        allowPrivilegeEscalation: false
+        readOnlyRootFilesystem: true
+        capabilities:
+          drop:
+            - ALL
+      volumeMounts:
+        - name: data
+          mountPath: /data
+        - name: backups
+          mountPath: /backups
+        - name: tmp
+          mountPath: /tmp
+  volumes:
+    - name: data
+      persistentVolumeClaim:
+        claimName: ooshdaq-data
+    - name: backups
+      persistentVolumeClaim:
+        claimName: ooshdaq-backups
+    - name: tmp
+      emptyDir:
+        sizeLimit: 16Mi

@@ -1,0 +1,46 @@
+version: 2
+
+updates:
+  - package-ecosystem: gomod
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: "20:00"
+      timezone: Australia/Sydney
+    open-pull-requests-limit: 5
+    groups:
+      go-dependencies:
+        patterns:
+          - "*"
+
+  - package-ecosystem: docker
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: "20:15"
+      timezone: Australia/Sydney
+    open-pull-requests-limit: 3
+
+  - package-ecosystem: npm
+    directory: /web
+    schedule:
+      interval: weekly
+      day: monday
+      time: "20:20"
+      timezone: Australia/Sydney
+    open-pull-requests-limit: 3
+
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: weekly
+      day: monday
+      time: "20:30"
+      timezone: Australia/Sydney
+    open-pull-requests-limit: 3
+    groups:
+      actions:
+        patterns:
+          - "*"

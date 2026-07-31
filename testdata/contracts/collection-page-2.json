@@ -1,0 +1,76 @@
+{
+  "catalog": {
+    "id": "paper-orbit-stargazers-2026",
+    "brand": {
+      "id": "paper-orbit",
+      "name": "Paper Orbit Studio"
+    },
+    "name": "Stargazer Pins",
+    "edition": "2026",
+    "publication_status": "active",
+    "sort_order": 10,
+    "item_count": 3,
+    "universe_options": [
+      "Aurora",
+      "Comet",
+      "Moon"
+    ],
+    "artwork": {
+      "image_url": "/assets/collectible-placeholder.svg",
+      "alt_text": "Placeholder artwork for the fictional Stargazer Pins catalog.",
+      "width": 600,
+      "height": 600,
+      "source_url": "/assets/collectible-placeholder.svg",
+      "attribution": "$OOSHDAQ synthetic contract fixture; Apache-2.0 placeholder artwork.",
+      "rights_status": "original",
+      "license": "Apache-2.0",
+      "retrieved_at": "2026-07-30"
+    },
+    "member_summary": {
+      "owned_quantity": 3,
+      "owned_designs": 1,
+      "available_quantity": 2,
+      "available_designs": 1,
+      "wanted_quantity": 1,
+      "wanted_designs": 1
+    }
+  },
+  "entries": [
+    {
+      "catalog_item": {
+        "id": "paper-orbit-stargazers-2026-003-aurora-map",
+        "catalog_id": "paper-orbit-stargazers-2026",
+        "catalog": {
+          "id": "paper-orbit-stargazers-2026",
+          "name": "Stargazer Pins",
+          "edition": "2026",
+          "publication_status": "active",
+          "brand": {
+            "id": "paper-orbit",
+            "name": "Paper Orbit Studio"
+          }
+        },
+        "number": 3,
+        "name": "Aurora Map",
+        "universe": "Aurora",
+        "variant": "Night chart",
+        "publication_status": "retired",
+        "artwork": {
+          "alt_text": "Fallback artwork for the fictional Aurora Map.",
+          "source_url": "/assets/collectible-placeholder.svg",
+          "attribution": "Synthetic fixture item; no item artwork is published.",
+          "rights_status": "restricted",
+          "retrieved_at": "2026-07-30"
+        }
+      },
+      "owned": 0,
+      "available": 0,
+      "wanted": 0
+    }
+  ],
+  "page": {
+    "limit": 2,
+    "returned": 1,
+    "next_cursor": null
+  }
+}

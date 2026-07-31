@@ -1,0 +1,211 @@
+.back-link {
+  display: inline-block;
+  margin-bottom: 1.2rem;
+  font-weight: 750;
+  text-decoration: none;
+}
+
+.compact-summary {
+  max-width: 23rem;
+  padding: 0.65rem 0.85rem;
+  color: var(--brand-dark);
+  background: var(--mint);
+  border-radius: 0.7rem;
+  font-size: 0.86rem;
+  font-weight: 750;
+}
+
+.collectible-card {
+  display: grid;
+  grid-template-rows: 13.5rem 1fr;
+  transition:
+    border-color 160ms ease,
+    box-shadow 160ms ease;
+}
+
+.collectible-card.is-available {
+  border-color: #eab16f;
+  box-shadow: 0 12px 30px rgb(173 100 21 / 12%);
+}
+
+.collectible-card.is-wanted {
+  border-color: #e6a8b7;
+  box-shadow: 0 12px 30px rgb(161 45 69 / 10%);
+}
+
+.collectible-art .item-number {
+  z-index: 2;
+  right: auto;
+  left: 0.75rem;
+}
+
+.collectible-art-toggle {
+  width: 100%;
+  min-height: 13.5rem;
+  padding: 0;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  border: 0;
+  cursor: pointer;
+}
+
+.collectible-art-toggle:focus-visible {
+  z-index: 3;
+  outline: 3px solid var(--brand);
+  outline-offset: -4px;
+}
+
+.collectible-art-toggle:disabled {
+  cursor: wait;
+}
+
+.ownership-status {
+  position: absolute;
+  z-index: 2;
+  right: 0.75rem;
+  bottom: 0.75rem;
+  padding: 0.38rem 0.62rem;
+  color: var(--brand-dark);
+  background: rgb(255 255 255 / 94%);
+  border: 1px solid rgb(255 255 255 / 80%);
+  border-radius: 99rem;
+  font-size: 0.72rem;
+  font-weight: 850;
+}
+
+.collectible-art-toggle[aria-pressed="true"] .ownership-status {
+  background: var(--mint);
+  border-color: #8bcbbb;
+}
+
+.collectible-card.is-unowned .collectible-art::after {
+  position: absolute;
+  z-index: 1;
+  inset: 0;
+  background:
+    linear-gradient(145deg, rgb(242 247 244 / 38%), rgb(228 226 255 / 34%));
+  content: "";
+  pointer-events: none;
+}
+
+.collectible-card.is-unowned .collectible-art .artwork-image {
+  opacity: 0.74;
+  filter: saturate(0.48) contrast(0.92);
+}
+
+.collectible-card.is-wanted .collectible-art::after {
+  background:
+    linear-gradient(145deg, rgb(255 224 231 / 44%), rgb(228 226 255 / 28%));
+}
+
+.tag-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.tag {
+  padding: 0.25rem 0.5rem;
+  color: var(--brand-dark);
+  background: var(--mint);
+  border-radius: 99rem;
+  font-size: 0.68rem;
+  font-weight: 800;
+}
+
+.tag--soft {
+  color: #4b4786;
+  background: var(--violet);
+}
+
+.tag--retired {
+  color: #765126;
+  background: #fff1d7;
+}
+
+.collection-state-controls {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.45rem;
+  min-width: 0;
+  padding: 0;
+  margin: 0.15rem 0 0;
+  border: 0;
+}
+
+.state-toggle {
+  display: flex;
+  min-width: 0;
+  min-height: 3rem;
+  align-items: center;
+  justify-content: center;
+  gap: 0.42rem;
+  padding: 0.55rem 0.45rem;
+  color: var(--muted);
+  text-align: center;
+  background: var(--surface-soft);
+  border: 1px solid var(--line);
+  border-radius: 0.72rem;
+  cursor: pointer;
+  font-size: 0.74rem;
+  font-weight: 800;
+  line-height: 1.15;
+  transition:
+    background-color 140ms ease,
+    border-color 140ms ease,
+    color 140ms ease,
+    transform 140ms ease;
+}
+
+.state-toggle:hover {
+  border-color: var(--brand);
+  transform: translateY(-1px);
+}
+
+.state-toggle input {
+  width: 1.12rem;
+  height: 1.12rem;
+  flex: 0 0 auto;
+  margin: 0;
+  accent-color: var(--brand);
+  cursor: inherit;
+}
+
+.state-toggle:has(input:checked) {
+  color: var(--ink);
+  border-color: #8bcbbb;
+}
+
+.state-toggle--available:has(input:checked) {
+  background: var(--peach);
+  border-color: #e1a45d;
+}
+
+.state-toggle--wanted:has(input:checked) {
+  background: var(--rose);
+  border-color: #dd93a6;
+}
+
+.collection-state-controls:disabled .state-toggle {
+  cursor: wait;
+  opacity: 0.62;
+  transform: none;
+}
+
+.collection-save-status {
+  min-height: 1.2rem;
+  margin: -0.2rem 0 0;
+  color: var(--brand-dark);
+  font-size: 0.76rem;
+  font-weight: 750;
+  line-height: 1.35;
+}
+
+.collection-save-status.is-error {
+  padding: 0.55rem 0.65rem;
+  color: var(--danger);
+  background: #fff1f3;
+  border: 1px solid #e8b5c0;
+  border-radius: 0.65rem;
+}

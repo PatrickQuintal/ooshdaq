@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "manifest_version": 1,
+  "brand": {
+    "id": "mosslight-studio",
+    "name": "Mosslight Studio (fictional)",
+    "status": "active"
+  },
+  "catalog": {
+    "id": "garden-sprites-2026",
+    "brand_id": "mosslight-studio",
+    "name": "Garden Sprites (fictional fixture)",
+    "edition": "2026",
+    "status": "active",
+    "sort_order": 50
+  },
+  "items": [
+    {
+      "id": "garden-sprites-2026-01-acorn-keeper",
+      "catalog_id": "garden-sprites-2026",
+      "number": 1,
+      "name": "Acorn Keeper",
+      "universe": "Backyard Guild",
+      "status": "active",
+      "artwork": {
+        "placeholder": true,
+        "rights": {"status": "unknown"},
+        "provenance": {
+          "reviewed_at": "2026-07-30",
+          "review_reference": "fictional-fixture-no-artwork",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "garden-sprites-2026-02-bramble-bard",
+      "catalog_id": "garden-sprites-2026",
+      "number": 2,
+      "name": "Bramble Bard",
+      "universe": "Backyard Guild",
+      "status": "active",
+      "artwork": {
+        "placeholder": true,
+        "rights": {"status": "unknown"},
+        "provenance": {
+          "reviewed_at": "2026-07-30",
+          "review_reference": "fictional-fixture-no-artwork",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "garden-sprites-2026-03-dewdrop-dancer",
+      "catalog_id": "garden-sprites-2026",
+      "number": 3,
+      "name": "Dewdrop Dancer",
+      "universe": "Backyard Guild",
+      "status": "active",
+      "artwork": {
+        "placeholder": true,
+        "rights": {"status": "unknown"},
+        "provenance": {
+          "reviewed_at": "2026-07-30",
+          "review_reference": "fictional-fixture-no-artwork",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "garden-sprites-2026-04-mushroom-mapper",
+      "catalog_id": "garden-sprites-2026",
+      "number": 4,
+      "name": "Mushroom Mapper",
+      "universe": "Backyard Guild",
+      "status": "active",
+      "artwork": {
+        "placeholder": true,
+        "rights": {"status": "unknown"},
+        "provenance": {
+          "reviewed_at": "2026-07-30",
+          "review_reference": "fictional-fixture-no-artwork",
+          "transformation": "none"
+        }
+      }
+    }
+  ]
+}

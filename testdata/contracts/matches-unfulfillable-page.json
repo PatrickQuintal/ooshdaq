@@ -1,0 +1,83 @@
+{
+  "matches": [
+    {
+      "id": "match-b66557d17e4cc32caac6900e",
+      "other_user": {
+        "id": "member-sage",
+        "display_name": "Sage Example"
+      },
+      "they_request": {
+        "catalog_item": {
+          "id": "harbor-lantern-tide-tokens-2026-001-coral-token",
+          "catalog_id": "harbor-lantern-tide-tokens-2026",
+          "catalog": {
+            "id": "harbor-lantern-tide-tokens-2026",
+            "name": "Tide Tokens",
+            "edition": "2026",
+            "publication_status": "active",
+            "brand": {
+              "id": "harbor-lantern",
+              "name": "Harbor Lantern Club"
+            }
+          },
+          "number": 1,
+          "name": "Coral Token",
+          "universe": "Reef",
+          "variant": "Rose current",
+          "publication_status": "active",
+          "artwork": {
+            "image_url": "/assets/collectible-placeholder.svg",
+            "alt_text": "Placeholder artwork for the fictional Coral Token.",
+            "width": 600,
+            "height": 600,
+            "source_url": "/assets/collectible-placeholder.svg",
+            "attribution": "$OOSHDAQ synthetic contract fixture; Apache-2.0 placeholder artwork.",
+            "rights_status": "original",
+            "license": "Apache-2.0",
+            "retrieved_at": "2026-07-30"
+          }
+        },
+        "quantity": 0,
+        "fulfillable": false
+      },
+      "you_receive": {
+        "catalog_item": {
+          "id": "cedar-kite-trail-signs-2026-002-summit-badge",
+          "catalog_id": "cedar-kite-trail-signs-2026",
+          "catalog": {
+            "id": "cedar-kite-trail-signs-2026",
+            "name": "Trail Signs",
+            "edition": "2026",
+            "publication_status": "active",
+            "brand": {
+              "id": "cedar-kite",
+              "name": "Cedar Kite Workshop"
+            }
+          },
+          "number": 2,
+          "name": "Summit Badge",
+          "universe": "Summit",
+          "variant": "Snow cap",
+          "publication_status": "active",
+          "artwork": {
+            "image_url": "/assets/collectible-placeholder.svg",
+            "alt_text": "Placeholder artwork for the fictional Summit Badge.",
+            "width": 600,
+            "height": 600,
+            "source_url": "/assets/collectible-placeholder.svg",
+            "attribution": "$OOSHDAQ synthetic contract fixture; Apache-2.0 placeholder artwork.",
+            "rights_status": "original",
+            "license": "Apache-2.0",
+            "retrieved_at": "2026-07-30"
+          }
+        },
+        "quantity": 1
+      }
+    }
+  ],
+  "page": {
+    "limit": 20,
+    "returned": 1,
+    "next_cursor": null
+  }
+}

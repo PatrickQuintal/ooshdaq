@@ -1,0 +1,191 @@
+{
+  "fixture_version": "qualification-v2",
+  "generated_at": "2026-07-31T03:35:08.999904146Z",
+  "configuration": {
+    "database_path": "/tmp/ooshdaq-qualification.u78VyX/qualification.sqlite",
+    "seed": 20260730,
+    "requested_users": 10000,
+    "requested_brands": 3,
+    "requested_catalogs": 5,
+    "items_per_catalog": 40,
+    "requested_collection_rows": 80000,
+    "workers": 100,
+    "duration": "1m0s",
+    "member_think_time": "100ms",
+    "max_open_connections": 8,
+    "busy_timeout": "5s"
+  },
+  "fixture": {
+    "sha256": "5131395bd2b85d85491b297e5be1b7d7ad8cac772e4bca9434a40ef1a0cf188e",
+    "seed_duration": "1.263044911s",
+    "seed_duration_milliseconds": 1263.044911,
+    "brand_count": 3,
+    "catalog_count": 5,
+    "item_count": 200,
+    "user_count": 10000,
+    "collection_row_count": 80000,
+    "rows_per_user": 8,
+    "collection_density_percent": 4,
+    "same_catalog_reciprocal_pairs": 1000,
+    "cross_catalog_reciprocal_pairs": 3999,
+    "same_catalog_journey_verified": true,
+    "cross_catalog_journey_verified": true,
+    "one_way_journey_verified": true
+  },
+  "workload": {
+    "requested_duration": "1m0s",
+    "elapsed": "1m0.001683538s",
+    "elapsed_milliseconds": 60001.683538,
+    "workers": 100,
+    "operations": {
+      "catalog": {
+        "attempts": 4701,
+        "successes": 4685,
+        "unexpected_errors": 0,
+        "busy_errors": 0,
+        "deadline_cancellations": 16,
+        "limit_violations": 0,
+        "mix_percent": 15.003829950210648,
+        "attempts_per_second": 78.34780164164533,
+        "successes_per_second": 78.08114245715983,
+        "p50_milliseconds": 200,
+        "p95_milliseconds": 310,
+        "max_milliseconds": 464.308552
+      },
+      "collection": {
+        "attempts": 15665,
+        "successes": 15645,
+        "unexpected_errors": 0,
+        "busy_errors": 0,
+        "deadline_cancellations": 20,
+        "limit_violations": 0,
+        "mix_percent": 49.99680837482446,
+        "attempts_per_second": 261.0760078103327,
+        "successes_per_second": 260.7426838297258,
+        "p50_milliseconds": 78,
+        "p95_milliseconds": 160,
+        "max_milliseconds": 990.918756
+      },
+      "matches": {
+        "attempts": 9399,
+        "successes": 9395,
+        "unexpected_errors": 0,
+        "busy_errors": 0,
+        "deadline_cancellations": 4,
+        "limit_violations": 0,
+        "mix_percent": 29.998085024894678,
+        "attempts_per_second": 156.64560468619962,
+        "successes_per_second": 156.57893989007826,
+        "p50_milliseconds": 30,
+        "p95_milliseconds": 76,
+        "max_milliseconds": 990.496286
+      },
+      "write": {
+        "attempts": 1567,
+        "successes": 1565,
+        "unexpected_errors": 0,
+        "busy_errors": 0,
+        "deadline_cancellations": 2,
+        "limit_violations": 0,
+        "mix_percent": 5.001276650070216,
+        "attempts_per_second": 26.115933880548443,
+        "successes_per_second": 26.082601482487757,
+        "p50_milliseconds": 55,
+        "p95_milliseconds": 680,
+        "max_milliseconds": 1796.893335
+      }
+    },
+    "total_attempts": 31332,
+    "total_successes": 31290,
+    "attempts_per_second": 522.1853480187261,
+    "successes_per_second": 521.4853676594516,
+    "unexpected_errors": 0,
+    "busy_errors": 0,
+    "deadline_cancellations": 42,
+    "limit_violations": 0
+  },
+  "storage": {
+    "before_checkpoint": {
+      "database_bytes": 20246528,
+      "wal_bytes": 20571192,
+      "shm_bytes": 65536
+    },
+    "after_checkpoint": {
+      "database_bytes": 20246528,
+      "wal_bytes": 0,
+      "shm_bytes": 65536
+    },
+    "passive_checkpoint": {
+      "busy": 0,
+      "log_frames": 565,
+      "checkpointed_frames": 565,
+      "duration": "3.640346ms",
+      "duration_milliseconds": 3.640346
+    },
+    "truncate_checkpoint": {
+      "busy": 0,
+      "log_frames": 0,
+      "checkpointed_frames": 0,
+      "duration": "6.009245ms",
+      "duration_milliseconds": 6.009245
+    }
+  },
+  "verification": {
+    "readiness_passed": true,
+    "foreign_keys_passed": true,
+    "integrity_passed": true,
+    "query_plan_bounded": true,
+    "query_plan_details": [
+      "SEARCH current_want USING COVERING INDEX collection_entries_user_wants_idx (user_id=?)",
+      "SEARCH other_offer USING COVERING INDEX collection_entries_offers_idx (item_id=?)",
+      "CORRELATED SCALAR SUBQUERY 1",
+      "SEARCH candidate_want USING COVERING INDEX collection_entries_user_wants_idx (user_id=?)",
+      "SEARCH candidate_offer USING COVERING INDEX collection_entries_user_offers_idx (user_id=? AND item_id=? AND available\u003e?) LEFT-JOIN",
+      "USE TEMP B-TREE FOR ORDER BY",
+      "USE TEMP B-TREE FOR ORDER BY"
+    ],
+    "required_indexes": [
+      "collection_entries_offers_idx",
+      "collection_entries_user_offers_idx",
+      "collection_entries_user_wants_idx"
+    ]
+  },
+  "environment": {
+    "goos": "linux",
+    "goarch": "amd64",
+    "go_version": "go1.26.5",
+    "expected_go_version": "go1.26.5",
+    "gomaxprocs": 1,
+    "allowed_cpus": 12,
+    "cgroup_cpu_quota": 1,
+    "cgroup_memory_limit_bytes": 268435456,
+    "go_memory_limit_bytes": 230686720,
+    "baseline_rss_bytes": 18948096,
+    "final_rss_bytes": 34721792,
+    "peak_rss_bytes": 58310656,
+    "heap_alloc_bytes": 7279152,
+    "go_runtime_sys_bytes": 22116616,
+    "hard_cpu_constraint": true,
+    "hard_memory_constraint": true
+  },
+  "gates": {
+    "fixed_release_shape": true,
+    "fixed_release_workload": true,
+    "exact_request_mix": true,
+    "zero_unexpected_errors": true,
+    "no_busy_errors": true,
+    "latency_thresholds_passed": true,
+    "response_bounds_passed": true,
+    "reciprocal_journeys_passed": true,
+    "possible_swap_journeys_passed": true,
+    "query_plan_passed": true,
+    "readiness_integrity_passed": true,
+    "checkpoint_passed": true,
+    "single_cpu_execution": true,
+    "observed_memory_within_256_mib": true,
+    "hard_resource_limits_verified": true,
+    "pinned_go_version_verified": true,
+    "functional_thresholds_passed": true,
+    "formal_release_gate_passed": true
+  }
+}

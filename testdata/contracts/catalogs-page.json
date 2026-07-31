@@ -1,0 +1,189 @@
+{
+  "catalogs": [
+    {
+      "id": "paper-orbit-stargazers-2026",
+      "brand": {
+        "id": "paper-orbit",
+        "name": "Paper Orbit Studio"
+      },
+      "name": "Stargazer Pins",
+      "edition": "2026",
+      "publication_status": "active",
+      "sort_order": 10,
+      "item_count": 3,
+      "universe_options": [
+        "Aurora",
+        "Comet",
+        "Moon"
+      ],
+      "artwork": {
+        "image_url": "/assets/collectible-placeholder.svg",
+        "alt_text": "Placeholder artwork for the fictional Stargazer Pins catalog.",
+        "width": 600,
+        "height": 600,
+        "source_url": "/assets/collectible-placeholder.svg",
+        "attribution": "$OOSHDAQ synthetic contract fixture; Apache-2.0 placeholder artwork.",
+        "rights_status": "original",
+        "license": "Apache-2.0",
+        "retrieved_at": "2026-07-30"
+      },
+      "member_summary": {
+        "owned_quantity": 3,
+        "owned_designs": 1,
+        "available_quantity": 2,
+        "available_designs": 1,
+        "wanted_quantity": 1,
+        "wanted_designs": 1
+      }
+    },
+    {
+      "id": "paper-orbit-tiny-worlds-2025",
+      "brand": {
+        "id": "paper-orbit",
+        "name": "Paper Orbit Studio"
+      },
+      "name": "Tiny Worlds",
+      "edition": "2025",
+      "publication_status": "retired",
+      "sort_order": 20,
+      "item_count": 3,
+      "universe_options": [
+        "Garden",
+        "Kitchen",
+        "Workshop"
+      ],
+      "artwork": {
+        "image_url": "/assets/collectible-placeholder.svg",
+        "alt_text": "Placeholder artwork for the fictional Tiny Worlds catalog.",
+        "width": 600,
+        "height": 600,
+        "source_url": "/assets/collectible-placeholder.svg",
+        "attribution": "$OOSHDAQ synthetic contract fixture; Apache-2.0 placeholder artwork.",
+        "rights_status": "original",
+        "license": "Apache-2.0",
+        "retrieved_at": "2026-07-30"
+      },
+      "member_summary": {
+        "owned_quantity": 2,
+        "owned_designs": 2,
+        "available_quantity": 1,
+        "available_designs": 1,
+        "wanted_quantity": 0,
+        "wanted_designs": 0
+      }
+    },
+    {
+      "id": "harbor-lantern-tide-tokens-2026",
+      "brand": {
+        "id": "harbor-lantern",
+        "name": "Harbor Lantern Club"
+      },
+      "name": "Tide Tokens",
+      "edition": "2026",
+      "publication_status": "active",
+      "sort_order": 30,
+      "item_count": 3,
+      "universe_options": [
+        "Harbor",
+        "Reef",
+        "Shore"
+      ],
+      "artwork": {
+        "image_url": "/assets/collectible-placeholder.svg",
+        "alt_text": "Placeholder artwork for the fictional Tide Tokens catalog.",
+        "width": 600,
+        "height": 600,
+        "source_url": "/assets/collectible-placeholder.svg",
+        "attribution": "$OOSHDAQ synthetic contract fixture; Apache-2.0 placeholder artwork.",
+        "rights_status": "original",
+        "license": "Apache-2.0",
+        "retrieved_at": "2026-07-30"
+      },
+      "member_summary": {
+        "owned_quantity": 2,
+        "owned_designs": 1,
+        "available_quantity": 1,
+        "available_designs": 1,
+        "wanted_quantity": 1,
+        "wanted_designs": 1
+      }
+    },
+    {
+      "id": "harbor-lantern-cloud-parade-2026",
+      "brand": {
+        "id": "harbor-lantern",
+        "name": "Harbor Lantern Club"
+      },
+      "name": "Cloud Parade",
+      "edition": "2026",
+      "publication_status": "active",
+      "sort_order": 40,
+      "item_count": 3,
+      "universe_options": [
+        "Cumulus",
+        "Rain",
+        "Sunset"
+      ],
+      "artwork": {
+        "image_url": "/assets/collectible-placeholder.svg",
+        "alt_text": "Placeholder artwork for the fictional Cloud Parade catalog.",
+        "width": 600,
+        "height": 600,
+        "source_url": "/assets/collectible-placeholder.svg",
+        "attribution": "$OOSHDAQ synthetic contract fixture; Apache-2.0 placeholder artwork.",
+        "rights_status": "original",
+        "license": "Apache-2.0",
+        "retrieved_at": "2026-07-30"
+      },
+      "member_summary": {
+        "owned_quantity": 0,
+        "owned_designs": 0,
+        "available_quantity": 0,
+        "available_designs": 0,
+        "wanted_quantity": 0,
+        "wanted_designs": 0
+      }
+    },
+    {
+      "id": "cedar-kite-trail-signs-2026",
+      "brand": {
+        "id": "cedar-kite",
+        "name": "Cedar Kite Workshop"
+      },
+      "name": "Trail Signs",
+      "edition": "2026",
+      "publication_status": "active",
+      "sort_order": 50,
+      "item_count": 3,
+      "universe_options": [
+        "Forest",
+        "Summit",
+        "Valley"
+      ],
+      "artwork": {
+        "image_url": "/assets/collectible-placeholder.svg",
+        "alt_text": "Placeholder artwork for the fictional Trail Signs catalog.",
+        "width": 600,
+        "height": 600,
+        "source_url": "/assets/collectible-placeholder.svg",
+        "attribution": "$OOSHDAQ synthetic contract fixture; Apache-2.0 placeholder artwork.",
+        "rights_status": "original",
+        "license": "Apache-2.0",
+        "retrieved_at": "2026-07-30"
+      },
+      "member_summary": {
+        "owned_quantity": 1,
+        "owned_designs": 1,
+        "available_quantity": 0,
+        "available_designs": 0,
+        "wanted_quantity": 2,
+        "wanted_designs": 1
+      }
+    }
+  ],
+  "page": {
+    "limit": 20,
+    "returned": 5,
+    "next_cursor": null
+  }
+}

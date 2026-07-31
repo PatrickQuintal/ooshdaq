@@ -1,0 +1,29 @@
+# Build and test output
+/bin/
+/coverage/
+/web/.cache/
+/web/node_modules/
+/web/test-results/
+*.coverprofile
+*.test
+
+# Local persistent data
+/data/
+/backups/
+*.sqlite
+*.sqlite-shm
+*.sqlite-wal
+*.db
+*.db-shm
+*.db-wal
+*.db.lock
+
+# Local configuration
+.env
+!.env.example
+
+# Editor and operating-system noise
+.DS_Store
+.idea/
+.vscode/
+*.swp
