@@ -1,0 +1,123 @@
+{
+  "matches": [
+    {
+      "id": "match-1a40f7d779b91f9db413f6c8",
+      "other_user": {
+        "id": "member-river",
+        "display_name": "River Example"
+      },
+      "they_request": {
+        "catalog_item": {
+          "id": "paper-orbit-stargazers-2026-001-comet-pin",
+          "catalog_id": "paper-orbit-stargazers-2026",
+          "catalog": {
+            "id": "paper-orbit-stargazers-2026",
+            "name": "Stargazer Pins",
+            "edition": "2026",
+            "publication_status": "active",
+            "brand": {
+              "id": "paper-orbit",
+              "name": "Paper Orbit Studio"
+            }
+          },
+          "number": 1,
+          "name": "Comet Pin",
+          "universe": "Comet",
+          "variant": "Silver trail",
+          "publication_status": "active",
+          "artwork": {
+            "image_url": "/assets/collectible-placeholder.svg",
+            "alt_text": "Placeholder artwork for the fictional Comet Pin.",
+            "width": 600,
+            "height": 600,
+            "source_url": "/assets/collectible-placeholder.svg",
+            "attribution": "$OOSHDAQ synthetic contract fixture; Apache-2.0 placeholder artwork.",
+            "rights_status": "original",
+            "license": "Apache-2.0",
+            "retrieved_at": "2026-07-30"
+          }
+        },
+        "quantity": 1,
+        "fulfillable": true
+      },
+      "you_receive": {
+        "catalog_item": {
+          "id": "paper-orbit-stargazers-2026-002-moon-glider",
+          "catalog_id": "paper-orbit-stargazers-2026",
+          "catalog": {
+            "id": "paper-orbit-stargazers-2026",
+            "name": "Stargazer Pins",
+            "edition": "2026",
+            "publication_status": "active",
+            "brand": {
+              "id": "paper-orbit",
+              "name": "Paper Orbit Studio"
+            }
+          },
+          "number": 2,
+          "name": "Moon Glider",
+          "universe": "Moon",
+          "variant": "Blue sail",
+          "publication_status": "active",
+          "artwork": {
+            "image_url": "/assets/collectible-placeholder.svg",
+            "alt_text": "Placeholder artwork for the fictional Moon Glider.",
+            "width": 600,
+            "height": 600,
+            "source_url": "/assets/collectible-placeholder.svg",
+            "attribution": "$OOSHDAQ synthetic contract fixture; Apache-2.0 placeholder artwork.",
+            "rights_status": "original",
+            "license": "Apache-2.0",
+            "retrieved_at": "2026-07-30"
+          }
+        },
+        "quantity": 2
+      }
+    },
+    {
+      "id": "match-4823ab757693a4e11139b02e",
+      "other_user": {
+        "id": "member-wren",
+        "display_name": "Wren Example"
+      },
+      "you_receive": {
+        "catalog_item": {
+          "id": "cedar-kite-trail-signs-2026-002-summit-badge",
+          "catalog_id": "cedar-kite-trail-signs-2026",
+          "catalog": {
+            "id": "cedar-kite-trail-signs-2026",
+            "name": "Trail Signs",
+            "edition": "2026",
+            "publication_status": "active",
+            "brand": {
+              "id": "cedar-kite",
+              "name": "Cedar Kite Workshop"
+            }
+          },
+          "number": 2,
+          "name": "Summit Badge",
+          "universe": "Summit",
+          "variant": "Snow cap",
+          "publication_status": "active",
+          "artwork": {
+            "image_url": "/assets/collectible-placeholder.svg",
+            "alt_text": "Placeholder artwork for the fictional Summit Badge.",
+            "width": 600,
+            "height": 600,
+            "source_url": "/assets/collectible-placeholder.svg",
+            "attribution": "$OOSHDAQ synthetic contract fixture; Apache-2.0 placeholder artwork.",
+            "rights_status": "original",
+            "license": "Apache-2.0",
+            "retrieved_at": "2026-07-30"
+          }
+        },
+        "quantity": 1
+      }
+    }
+  ],
+  "page": {
+    "limit": 20,
+    "returned": 2,
+    "next_cursor": null
+  }
+}

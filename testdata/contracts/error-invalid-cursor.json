@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": "invalid_cursor",
+    "message": "The result cursor is invalid or has expired.",
+    "field": "cursor"
+  }
+}

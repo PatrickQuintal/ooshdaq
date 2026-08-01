@@ -1,0 +1,184 @@
+{
+  "fixture_version": "qualification-v1",
+  "generated_at": "2026-07-30T14:07:25.383269169Z",
+  "configuration": {
+    "database_path": "/tmp/ooshdaq-qual-final.saQzrf/qualification.sqlite",
+    "seed": 20260730,
+    "requested_users": 10000,
+    "requested_brands": 3,
+    "requested_catalogs": 5,
+    "items_per_catalog": 40,
+    "requested_collection_rows": 80000,
+    "workers": 100,
+    "duration": "1m0s",
+    "max_open_connections": 8,
+    "busy_timeout": "5s"
+  },
+  "fixture": {
+    "sha256": "6e3895d0db24bb62d42fcfb2ef3dd8823b724a44fe62b0084175c3806df6225b",
+    "seed_duration": "1.265010543s",
+    "seed_duration_milliseconds": 1265.010543,
+    "brand_count": 3,
+    "catalog_count": 5,
+    "item_count": 200,
+    "user_count": 10000,
+    "collection_row_count": 80000,
+    "rows_per_user": 8,
+    "collection_density_percent": 4,
+    "same_catalog_reciprocal_pairs": 1000,
+    "cross_catalog_reciprocal_pairs": 4000,
+    "same_catalog_journey_verified": true,
+    "cross_catalog_journey_verified": true
+  },
+  "workload": {
+    "requested_duration": "1m0s",
+    "elapsed": "1m0.012539421s",
+    "elapsed_milliseconds": 60012.539421,
+    "workers": 100,
+    "operations": {
+      "catalog": {
+        "attempts": 4099,
+        "successes": 4081,
+        "unexpected_errors": 0,
+        "busy_errors": 0,
+        "deadline_cancellations": 18,
+        "limit_violations": 0,
+        "mix_percent": 14.999817030775423,
+        "attempts_per_second": 68.30239212583045,
+        "successes_per_second": 68.0024548098351,
+        "p50_milliseconds": 230,
+        "p95_milliseconds": 620,
+        "max_milliseconds": 1800.137565
+      },
+      "collection": {
+        "attempts": 13663,
+        "successes": 13638,
+        "unexpected_errors": 0,
+        "busy_errors": 0,
+        "deadline_cancellations": 25,
+        "limit_violations": 0,
+        "mix_percent": 49.998170307754236,
+        "attempts_per_second": 227.6690860246942,
+        "successes_per_second": 227.25250641914508,
+        "p50_milliseconds": 93,
+        "p95_milliseconds": 310,
+        "max_milliseconds": 1244.521885
+      },
+      "matches": {
+        "attempts": 8198,
+        "successes": 8192,
+        "unexpected_errors": 0,
+        "busy_errors": 0,
+        "deadline_cancellations": 6,
+        "limit_violations": 0,
+        "mix_percent": 29.999634061550847,
+        "attempts_per_second": 136.6047842516609,
+        "successes_per_second": 136.50480514632912,
+        "p50_milliseconds": 35,
+        "p95_milliseconds": 210,
+        "max_milliseconds": 1255.935678
+      },
+      "write": {
+        "attempts": 1367,
+        "successes": 1319,
+        "unexpected_errors": 0,
+        "busy_errors": 0,
+        "deadline_cancellations": 48,
+        "limit_violations": 0,
+        "mix_percent": 5.002378599919494,
+        "attempts_per_second": 22.778572831424793,
+        "successes_per_second": 21.97873998877052,
+        "p50_milliseconds": 2100,
+        "p95_milliseconds": 3100,
+        "max_milliseconds": 4946.17008
+      }
+    },
+    "total_attempts": 27327,
+    "total_successes": 27230,
+    "attempts_per_second": 455.35483523361034,
+    "successes_per_second": 453.73850636407985,
+    "unexpected_errors": 0,
+    "busy_errors": 0,
+    "deadline_cancellations": 97,
+    "limit_violations": 0
+  },
+  "storage": {
+    "before_checkpoint": {
+      "database_bytes": 20226048,
+      "wal_bytes": 20455832,
+      "shm_bytes": 65536
+    },
+    "after_checkpoint": {
+      "database_bytes": 20226048,
+      "wal_bytes": 0,
+      "shm_bytes": 65536
+    },
+    "passive_checkpoint": {
+      "busy": 0,
+      "log_frames": 294,
+      "checkpointed_frames": 294,
+      "duration": "10.423268ms",
+      "duration_milliseconds": 10.423268
+    },
+    "truncate_checkpoint": {
+      "busy": 0,
+      "log_frames": 0,
+      "checkpointed_frames": 0,
+      "duration": "15.860757ms",
+      "duration_milliseconds": 15.860757
+    }
+  },
+  "verification": {
+    "readiness_passed": true,
+    "foreign_keys_passed": true,
+    "integrity_passed": true,
+    "query_plan_bounded": true,
+    "query_plan_details": [
+      "SEARCH current_offer USING COVERING INDEX collection_entries_user_offers_idx (user_id=?)",
+      "SEARCH other_want USING COVERING INDEX collection_entries_wants_idx (item_id=?)",
+      "SEARCH other_offer USING COVERING INDEX collection_entries_user_offers_idx (user_id=?)",
+      "SEARCH current_want USING COVERING INDEX collection_entries_user_wants_idx (user_id=? AND item_id=? AND wanted\u003e?)",
+      "USE TEMP B-TREE FOR ORDER BY"
+    ],
+    "required_indexes": [
+      "collection_entries_user_offers_idx",
+      "collection_entries_user_wants_idx",
+      "collection_entries_wants_idx"
+    ]
+  },
+  "environment": {
+    "goos": "linux",
+    "goarch": "amd64",
+    "go_version": "go1.26.5",
+    "expected_go_version": "go1.26.5",
+    "gomaxprocs": 1,
+    "allowed_cpus": 1,
+    "go_memory_limit_bytes": 230686720,
+    "baseline_rss_bytes": 17203200,
+    "final_rss_bytes": 43139072,
+    "peak_rss_bytes": 67461120,
+    "heap_alloc_bytes": 7461424,
+    "go_runtime_sys_bytes": 26118424,
+    "hard_cpu_constraint": true,
+    "hard_memory_constraint": false
+  },
+  "gates": {
+    "fixed_release_shape": true,
+    "fixed_release_workload": true,
+    "exact_request_mix": true,
+    "zero_unexpected_errors": true,
+    "no_busy_errors": true,
+    "latency_thresholds_passed": false,
+    "response_bounds_passed": true,
+    "reciprocal_journeys_passed": true,
+    "query_plan_passed": true,
+    "readiness_integrity_passed": true,
+    "checkpoint_passed": true,
+    "single_cpu_execution": true,
+    "observed_memory_within_256_mib": true,
+    "hard_resource_limits_verified": false,
+    "pinned_go_version_verified": true,
+    "functional_thresholds_passed": false,
+    "formal_release_gate_passed": false
+  }
+}

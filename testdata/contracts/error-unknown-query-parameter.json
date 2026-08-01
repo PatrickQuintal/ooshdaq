@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": "unknown_query_parameter",
+    "message": "sort is not accepted by this route.",
+    "field": "sort"
+  }
+}

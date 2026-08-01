@@ -1,0 +1,38 @@
+name: ooshdaq
+
+services:
+  ooshdaq:
+    build:
+      context: .
+    image: ooshdaq:local
+    user: "65532:65532"
+    environment:
+      OOSHDAQ_ADDR: :8080
+      OOSHDAQ_ALLOW_MOCK_AUTH: "true"
+      OOSHDAQ_AUTH_MODE: mock
+      OOSHDAQ_BACKUP_DIR: /backups
+      OOSHDAQ_BACKUP_INTERVAL: 24h
+      OOSHDAQ_BACKUP_RETENTION_COUNT: "14"
+      OOSHDAQ_DATA_PATH: /data/ooshdaq.sqlite
+    ports:
+      - "127.0.0.1:8080:8080"
+    read_only: true
+    tmpfs:
+      - /tmp:size=16m,mode=1777
+    volumes:
+      - type: volume
+        source: ooshdaq-data
+        target: /data
+      - type: volume
+        source: ooshdaq-backups
+        target: /backups
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    stop_grace_period: 60s
+    restart: unless-stopped
+
+volumes:
+  ooshdaq-data:
+  ooshdaq-backups:
