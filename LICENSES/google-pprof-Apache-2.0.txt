@@ -1,0 +1,9 @@
+github.com/google/pprof
+Version: v0.0.0-20250317173921-a4b03ec1a45e
+License: Apache License 2.0
+
+The complete Apache License 2.0 terms are distributed in the repository-root
+LICENSE file and copied into the runtime image as /licenses/LICENSE.
+
+Upstream license:
+https://github.com/google/pprof/blob/a4b03ec1a45e/LICENSE

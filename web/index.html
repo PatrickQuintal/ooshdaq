@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta
+      name="description"
+      content="Track collectibles and find people who might want to swap."
+    >
+    <meta name="theme-color" content="#102d2c">
+    <title>$OOSHDAQ · Collect, match, swap</title>
+    <link rel="icon" href="/assets/ooshdaq-mark.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/styles.css">
+    <script src="/app.js" type="module"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to main content</a>
+    <noscript>
+      <div class="noscript">$OOSHDAQ needs JavaScript to manage your collection.</div>
+    </noscript>
+
+    <div id="app" class="app-shell" aria-busy="true">
+      <header id="app-header" class="site-header" hidden>
+        <a
+          class="brand"
+          href="#/dashboard"
+          aria-label="$OOSHDAQ dashboard"
+          data-route-link="dashboard"
+        >
+          <img src="/assets/ooshdaq-mark.svg" alt="" width="44" height="44">
+          <span>
+            <strong>$OOSHDAQ</strong>
+            <small>Collect · match · swap</small>
+          </span>
+        </a>
+
+        <nav class="primary-nav" aria-label="Primary navigation">
+          <a class="nav-link" href="#/dashboard" data-route-link="dashboard">
+            <span aria-hidden="true">⌂</span>
+            Catalogs
+          </a>
+          <a
+            id="collection-nav-link"
+            class="nav-link"
+            href="#/dashboard"
+            data-route-link="collection"
+            hidden
+          >
+            <span aria-hidden="true">◇</span>
+            Collection
+          </a>
+          <a class="nav-link" href="#/matches" data-route-link="matches">
+            <span aria-hidden="true">⇄</span>
+            Matches
+            <span
+              id="matches-nav-badge"
+              class="nav-badge"
+              aria-label="No possible swaps"
+              hidden
+            >0</span>
+          </a>
+        </nav>
+
+        <div class="account">
+          <span id="header-avatar" class="avatar" aria-hidden="true">?</span>
+          <span class="account__copy">
+            <strong id="header-user-name">Collector</strong>
+            <small id="header-auth-mode">Signed in</small>
+          </span>
+          <button
+            id="logout-button"
+            class="icon-button"
+            type="button"
+            aria-label="Sign out"
+          >
+            ↗
+          </button>
+        </div>
+      </header>
+
+      <main id="main-content" tabindex="-1">
+        <div
+          id="global-status"
+          class="global-status"
+          role="status"
+          aria-live="polite"
+          aria-atomic="true"
+        >
+          <span class="spinner" aria-hidden="true"></span>
+          <span>Opening $OOSHDAQ…</span>
+        </div>
+
+        <section
+          id="login-view"
+          class="login-view"
+          aria-labelledby="login-title"
+          hidden
+        >
+          <div class="login-intro">
+            <img
+              class="login-mark"
+              src="/assets/ooshdaq-mark.svg"
+              alt=""
+              width="112"
+              height="112"
+            >
+            <span class="eyebrow">Welcome to</span>
+            <h1 id="login-title">$OOSHDAQ</h1>
+            <p>
+              Track what you have, mark what you can spare, and find people
+              with items you want.
+            </p>
+            <ul class="feature-list">
+              <li>Browse collectible collections</li>
+              <li>Keep your list private to your profile</li>
+              <li>Find possible swaps and giveaways</li>
+            </ul>
+            <img
+              class="login-buddies"
+              src="/assets/bean-buddies.svg"
+              alt=""
+              width="360"
+              height="180"
+            >
+          </div>
+          <div class="login-panel">
+            <span class="eyebrow">Choose a profile</span>
+            <h2>Who’s collecting today?</h2>
+            <p>Local profiles are fictional and remain separate.</p>
+            <div id="mock-user-list" class="profile-list"></div>
+            <p id="identity-note" class="notice" hidden></p>
+            <p id="login-error" class="form-message" role="alert" hidden></p>
+          </div>
+        </section>
+
+        <div id="authenticated-views" hidden>
+          <section
+            class="view"
+            data-view="dashboard"
+            aria-labelledby="dashboard-title"
+          >
+            <div class="view-heading">
+              <div>
+                <span class="eyebrow">Your collections</span>
+                <h1 id="dashboard-title" tabindex="-1">
+                  Hello, <span id="dashboard-user-name">collector</span>.
+                </h1>
+                <p>Choose a collection, then mark what you have, can swap, or want.</p>
+              </div>
+              <a class="button button--secondary" href="#/matches">
+                Find possible swaps
+              </a>
+            </div>
+
+            <div id="summary-content" class="summary-region"></div>
+
+            <section class="catalog-browser" aria-labelledby="catalog-heading">
+              <div class="section-heading">
+                <div>
+                  <span class="eyebrow">Collections</span>
+                  <h2 id="catalog-heading">Browse catalogs</h2>
+                </div>
+                <span id="catalog-results" class="results-meta" aria-live="polite"></span>
+              </div>
+              <form
+                id="catalog-filters"
+                class="filter-bar catalog-search-bar"
+                role="search"
+              >
+                <label class="field field--search">
+                  <span>Find a collectible</span>
+                  <input
+                    id="catalog-search"
+                    type="search"
+                    maxlength="100"
+                    autocomplete="off"
+                    placeholder="Maui, Moana, or Grogu"
+                  >
+                </label>
+                <button class="button button--primary" type="submit">Search</button>
+              </form>
+              <div id="catalog-content"></div>
+              <div class="load-more">
+                <button
+                  id="catalog-more"
+                  class="button button--secondary"
+                  type="button"
+                  data-action="load-more-catalogs"
+                  hidden
+                >
+                  Load more catalogs
+                </button>
+              </div>
+            </section>
+          </section>
+
+          <section
+            class="view"
+            data-view="collection"
+            aria-labelledby="collection-title"
+            hidden
+          >
+            <a class="back-link" href="#/dashboard">← Back to catalogs</a>
+            <div class="view-heading">
+              <div>
+                <span class="eyebrow">Your shelf</span>
+                <h1 id="collection-title" tabindex="-1">Collection</h1>
+                <p id="collection-subtitle">Choose a catalog from your dashboard.</p>
+              </div>
+              <span id="collection-summary" class="compact-summary" aria-live="polite"></span>
+            </div>
+
+            <form id="collection-filters" class="filter-bar" role="search">
+              <label class="field field--search">
+                <span>Search collectibles</span>
+                <input
+                  id="collection-search"
+                  type="search"
+                  maxlength="100"
+                  autocomplete="off"
+                  placeholder="Name, universe, or variant"
+                >
+              </label>
+              <label class="field">
+                <span>Universe</span>
+                <select id="collection-universe">
+                  <option value="">All universes</option>
+                </select>
+              </label>
+              <label class="field">
+                <span>Collection state</span>
+                <select id="collection-state">
+                  <option value="all">All items</option>
+                  <option value="owned">Owned</option>
+                  <option value="available">Available</option>
+                  <option value="wanted">Wanted</option>
+                </select>
+              </label>
+              <button class="button button--primary" type="submit">Apply</button>
+            </form>
+            <p id="collection-results" class="results-meta" aria-live="polite"></p>
+            <div id="collection-content"></div>
+            <div class="load-more">
+              <button
+                id="collection-more"
+                class="button button--secondary"
+                type="button"
+                data-action="load-more-collection"
+                hidden
+              >
+                Load more collectibles
+              </button>
+            </div>
+          </section>
+
+          <section
+            class="view"
+            data-view="matches"
+            aria-labelledby="matches-title"
+            hidden
+          >
+            <div class="view-heading">
+              <div>
+                <span class="eyebrow">People with things you want</span>
+                <h1 id="matches-title" tabindex="-1">Possible swaps</h1>
+                <p>
+                  Start with something you want, then see who has it and
+                  what they’re looking for in return.
+                </p>
+              </div>
+              <button
+                id="refresh-matches"
+                class="button button--secondary"
+                type="button"
+              >
+                Refresh
+              </button>
+            </div>
+
+            <p id="matches-results" class="results-meta" aria-live="polite"></p>
+            <div id="matches-content"></div>
+            <div class="load-more">
+              <button
+                id="matches-more"
+                class="button button--secondary"
+                type="button"
+                data-action="load-more-matches"
+                hidden
+              >
+                Load more matches
+              </button>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <div id="toast-region" class="toast-region" aria-live="polite"></div>
+    <div id="announcer" class="sr-only" aria-live="polite" aria-atomic="true"></div>
+  </body>
+</html>

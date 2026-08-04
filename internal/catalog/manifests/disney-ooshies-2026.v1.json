@@ -1,0 +1,979 @@
+{
+  "schema_version": 1,
+  "manifest_version": 1,
+  "brand": {
+    "id": "woolworths-ooshies",
+    "name": "Woolworths Ooshies",
+    "status": "active"
+  },
+  "catalog": {
+    "id": "disney-ooshies-2026",
+    "brand_id": "woolworths-ooshies",
+    "name": "Disney Ooshies (2026)",
+    "edition": "2026",
+    "status": "active",
+    "sort_order": 10
+  },
+  "items": [
+    {
+      "id": "disney-2026-01-moana",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 1,
+      "name": "Moana",
+      "universe": "Disney",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-disney-moana-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "disney-2026-02-maui",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 2,
+      "name": "Maui",
+      "universe": "Disney",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-disney-maui-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "disney-2026-03-pua",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 3,
+      "name": "Pua",
+      "universe": "Disney",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-disney-pua-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "disney-2026-04-hei-hei",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 4,
+      "name": "Hei Hei",
+      "universe": "Disney",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-disney-hei-hei-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "disney-2026-05-kakamora",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 5,
+      "name": "Kakamora",
+      "universe": "Disney",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-disney-kakamora-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "disney-2026-06-elsa",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 6,
+      "name": "Elsa",
+      "universe": "Disney",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-disney-elsa-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "disney-2026-07-anna",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 7,
+      "name": "Anna",
+      "universe": "Disney",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-disney-ana-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "disney-2026-08-stitch",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 8,
+      "name": "Stitch",
+      "universe": "Disney",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-disney-stitch-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "disney-2026-09-lilo",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 9,
+      "name": "Lilo",
+      "universe": "Disney",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-disney-lilo-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "disney-2026-10-judy-hopps",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 10,
+      "name": "Judy Hopps",
+      "universe": "Disney",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-disney-judy-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "pixar-2026-01-jessie",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 11,
+      "name": "Jessie",
+      "universe": "Pixar",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-pixar-jessie-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "pixar-2026-02-woody",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 12,
+      "name": "Woody",
+      "universe": "Pixar",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-pixar-woody-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "pixar-2026-03-buzz-lightyear",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 13,
+      "name": "Buzz Lightyear",
+      "universe": "Pixar",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-pixar-buzz-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "pixar-2026-04-bullseye",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 14,
+      "name": "Bullseye",
+      "universe": "Pixar",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-pixar-bullseye-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "pixar-2026-05-lilypad",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 15,
+      "name": "Lilypad",
+      "universe": "Pixar",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-pixar-lilypad-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "pixar-2026-06-mike",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 16,
+      "name": "Mike",
+      "universe": "Pixar",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-pixar-mike-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "pixar-2026-07-anxiety",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 17,
+      "name": "Anxiety",
+      "universe": "Pixar",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-pixar-anxiety-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "pixar-2026-08-sulley",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 18,
+      "name": "Sulley",
+      "universe": "Pixar",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-pixar-sulley-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "pixar-2026-09-joy",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 19,
+      "name": "Joy",
+      "universe": "Pixar",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-pixar-joy-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "pixar-2026-10-lightning-mcqueen",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 20,
+      "name": "Lightning McQueen",
+      "universe": "Pixar",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-pixar-mcqueen-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "marvel-2026-01-spider-man",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 21,
+      "name": "Spider-Man",
+      "universe": "Marvel",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-marvel-spiderman-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "marvel-2026-02-hulk",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 22,
+      "name": "Hulk",
+      "universe": "Marvel",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-marvel-hulk-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "marvel-2026-03-tombstone",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 23,
+      "name": "Tombstone",
+      "universe": "Marvel",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-marvel-tombstone-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "marvel-2026-04-scorpion",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 24,
+      "name": "Scorpion",
+      "universe": "Marvel",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-marvel-scorpion-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "marvel-2026-05-tarantula",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 25,
+      "name": "Tarantula",
+      "universe": "Marvel",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-marvel-tarantula-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "marvel-2026-06-the-thing",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 26,
+      "name": "The Thing",
+      "universe": "Marvel",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-marvel-thing-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "marvel-2026-07-wolverine",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 27,
+      "name": "Wolverine",
+      "universe": "Marvel",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-marvel-wolverine-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "marvel-2026-08-doctor-doom",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 28,
+      "name": "Doctor Doom",
+      "universe": "Marvel",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-marvel-doom-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "marvel-2026-09-thor",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 29,
+      "name": "Thor",
+      "universe": "Marvel",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-marvel-thor-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "marvel-2026-10-gambit",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 30,
+      "name": "Gambit",
+      "universe": "Marvel",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-marvel-gambit-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "star-wars-2026-01-mandalorian",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 31,
+      "name": "Mandalorian",
+      "universe": "Star Wars",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-star-wars-mando-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "star-wars-2026-02-grogu",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 32,
+      "name": "Grogu",
+      "universe": "Star Wars",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-star-wars-grogu-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "star-wars-2026-03-anzellan",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 33,
+      "name": "Anzellan",
+      "universe": "Star Wars",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-star-wars-anzellan-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "star-wars-2026-04-zeb",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 34,
+      "name": "Zeb",
+      "universe": "Star Wars",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-star-wars-zeb-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "star-wars-2026-05-stormtrooper",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 35,
+      "name": "Stormtrooper",
+      "universe": "Star Wars",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-star-wars-stormtrooper-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "star-wars-2026-06-darth-vader",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 36,
+      "name": "Darth Vader",
+      "universe": "Star Wars",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-star-wars-darth-vader-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "star-wars-2026-07-c-3po",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 37,
+      "name": "C-3PO",
+      "universe": "Star Wars",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-star-wars-c3po-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "star-wars-2026-08-princess-leia",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 38,
+      "name": "Princess Leia",
+      "universe": "Star Wars",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-star-wars-leia-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "star-wars-2026-09-luke-skywalker",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 39,
+      "name": "Luke Skywalker",
+      "universe": "Star Wars",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-star-wars-luke-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "star-wars-2026-10-r2-d2",
+      "catalog_id": "disney-ooshies-2026",
+      "number": 40,
+      "name": "R2-D2",
+      "universe": "Star Wars",
+      "status": "active",
+      "artwork": {
+        "asset_url": "https://cdn0.woolworths.media/content/content/dot/ooshies-2026-character-star-wars-r2d2-v3.png",
+        "placeholder": false,
+        "rights": {
+          "status": "source-hosted-link",
+          "license": "No copying or redistribution license identified",
+          "attribution": "Character render hosted by Woolworths for the Disney Ooshies 2026 collection"
+        },
+        "provenance": {
+          "source_page_url": "https://www.woolworths.com.au/shop/discover/disney-ooshies",
+          "retrieved_at": "2026-07-30",
+          "reviewed_at": "2026-07-30",
+          "review_reference": "catalog-maintainers",
+          "transformation": "none"
+        }
+      }
+    }
+  ]
+}

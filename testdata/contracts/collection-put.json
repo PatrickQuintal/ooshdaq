@@ -1,0 +1,37 @@
+{
+  "entry": {
+    "catalog_item": {
+      "id": "paper-orbit-stargazers-2026-001-comet-pin",
+      "catalog_id": "paper-orbit-stargazers-2026",
+      "catalog": {
+        "id": "paper-orbit-stargazers-2026",
+        "name": "Stargazer Pins",
+        "edition": "2026",
+        "publication_status": "active",
+        "brand": {
+          "id": "paper-orbit",
+          "name": "Paper Orbit Studio"
+        }
+      },
+      "number": 1,
+      "name": "Comet Pin",
+      "universe": "Comet",
+      "variant": "Silver trail",
+      "publication_status": "active",
+      "artwork": {
+        "image_url": "/assets/collectible-placeholder.svg",
+        "alt_text": "Placeholder artwork for the fictional Comet Pin.",
+        "width": 600,
+        "height": 600,
+        "source_url": "/assets/collectible-placeholder.svg",
+        "attribution": "$OOSHDAQ synthetic contract fixture; Apache-2.0 placeholder artwork.",
+        "rights_status": "original",
+        "license": "Apache-2.0",
+        "retrieved_at": "2026-07-30"
+      }
+    },
+    "owned": 3,
+    "available": 2,
+    "wanted": 0
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "manifest_version": 1,
+  "brand": {
+    "id": "northstar-novelties",
+    "name": "Northstar Novelties",
+    "status": "active"
+  },
+  "catalog": {
+    "id": "tiny-weather-2026",
+    "brand_id": "northstar-novelties",
+    "name": "Tiny Weather",
+    "edition": "2026",
+    "status": "active",
+    "sort_order": 30
+  },
+  "items": [
+    {
+      "id": "tiny-weather-2026-01-drizzle-duck",
+      "catalog_id": "tiny-weather-2026",
+      "number": 1,
+      "name": "Drizzle Duck",
+      "universe": "Forecast Friends",
+      "status": "active",
+      "artwork": {
+        "placeholder": true,
+        "rights": {"status": "unknown"},
+        "provenance": {
+          "reviewed_at": "2026-07-30",
+          "review_reference": "fictional-fixture-no-artwork",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "tiny-weather-2026-02-thunder-toad",
+      "catalog_id": "tiny-weather-2026",
+      "number": 2,
+      "name": "Thunder Toad",
+      "universe": "Forecast Friends",
+      "status": "active",
+      "artwork": {
+        "placeholder": true,
+        "rights": {"status": "unknown"},
+        "provenance": {
+          "reviewed_at": "2026-07-30",
+          "review_reference": "fictional-fixture-no-artwork",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "tiny-weather-2026-03-frost-fox",
+      "catalog_id": "tiny-weather-2026",
+      "number": 3,
+      "name": "Frost Fox",
+      "universe": "Forecast Friends",
+      "status": "active",
+      "artwork": {
+        "placeholder": true,
+        "rights": {"status": "unknown"},
+        "provenance": {
+          "reviewed_at": "2026-07-30",
+          "review_reference": "fictional-fixture-no-artwork",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "tiny-weather-2026-04-cloud-crab",
+      "catalog_id": "tiny-weather-2026",
+      "number": 4,
+      "name": "Cloud Crab",
+      "universe": "Forecast Friends",
+      "status": "active",
+      "artwork": {
+        "placeholder": true,
+        "rights": {"status": "unknown"},
+        "provenance": {
+          "reviewed_at": "2026-07-30",
+          "review_reference": "fictional-fixture-no-artwork",
+          "transformation": "none"
+        }
+      }
+    }
+  ]
+}

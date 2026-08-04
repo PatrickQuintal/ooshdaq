@@ -1,0 +1,7 @@
+{
+  "error": {
+    "code": "cursor_conflict",
+    "message": "cursor cannot be combined with other query parameters.",
+    "field": "cursor"
+  }
+}

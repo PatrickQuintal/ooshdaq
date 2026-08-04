@@ -1,0 +1,38 @@
+$OOSHDAQ
+Copyright 2026 $OOSHDAQ contributors
+
+$OOSHDAQ is an independent open-source project. Names, marks, characters, and
+images associated with third-party collectible ranges remain the property of
+their respective owners and are not licensed under the Apache License 2.0.
+Their inclusion as catalog metadata or provenance links does not imply
+affiliation, endorsement, or sponsorship.
+
+Third-party software
+
+The selected Go 1.26.5 toolchain and standard library are distributed under
+the BSD 3-Clause License.
+
+The SQLite implementation uses:
+
+- SQLite 3.53.3, public domain
+- modernc.org/sqlite v1.55.0, BSD 3-Clause License
+- modernc.org/libc v1.74.1, BSD 3-Clause License
+- github.com/google/pprof v0.0.0-20250317173921-a4b03ec1a45e,
+  Apache License 2.0
+- golang.org/x/sys v0.46.0, BSD 3-Clause License
+- modernc.org/fileutil v1.4.0, BSD 3-Clause License
+- modernc.org/mathutil v1.7.1, BSD 3-Clause License
+- github.com/dustin/go-humanize v1.0.1, MIT License
+- github.com/google/uuid v1.6.0, BSD 3-Clause License
+- github.com/mattn/go-isatty v0.0.20, MIT License
+- github.com/ncruces/go-strftime v1.0.0, MIT License
+- github.com/remyoudompheng/bigfft
+  v0.0.0-20230129092748-24d4a6f8daec, BSD 3-Clause License
+- modernc.org/memory v1.11.0, BSD 3-Clause License
+
+The modernc.org/libc notice also reproduces its attributions and terms for
+derived Go, musl libc, go-netdb, and NixOS/nixpkgs material. The
+modernc.org/memory notices cover derived Go and mmap-go material.
+
+Complete third-party terms and the version-to-notice inventory are in
+LICENSES/. The repository-root LICENSE contains the Apache License 2.0 terms.

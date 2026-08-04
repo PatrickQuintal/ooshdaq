@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "manifest_version": 1,
+  "brand": {
+    "id": "harbor-paperworks",
+    "name": "Harbor Paperworks",
+    "status": "active"
+  },
+  "catalog": {
+    "id": "harbor-signal-pins-2026",
+    "brand_id": "harbor-paperworks",
+    "name": "Harbor Signal Pins",
+    "edition": "2026",
+    "status": "active",
+    "sort_order": 40
+  },
+  "items": [
+    {
+      "id": "harbor-signal-pins-2026-01-anchor-amber",
+      "catalog_id": "harbor-signal-pins-2026",
+      "number": 1,
+      "name": "Anchor Amber",
+      "universe": "Harbor Signals",
+      "status": "active",
+      "artwork": {
+        "placeholder": true,
+        "rights": {"status": "unknown"},
+        "provenance": {
+          "reviewed_at": "2026-07-30",
+          "review_reference": "fictional-fixture-no-artwork",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "harbor-signal-pins-2026-02-beacon-blue",
+      "catalog_id": "harbor-signal-pins-2026",
+      "number": 2,
+      "name": "Beacon Blue",
+      "universe": "Harbor Signals",
+      "status": "active",
+      "artwork": {
+        "placeholder": true,
+        "rights": {"status": "unknown"},
+        "provenance": {
+          "reviewed_at": "2026-07-30",
+          "review_reference": "fictional-fixture-no-artwork",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "harbor-signal-pins-2026-03-buoy-coral",
+      "catalog_id": "harbor-signal-pins-2026",
+      "number": 3,
+      "name": "Buoy Coral",
+      "universe": "Harbor Signals",
+      "status": "active",
+      "artwork": {
+        "placeholder": true,
+        "rights": {"status": "unknown"},
+        "provenance": {
+          "reviewed_at": "2026-07-30",
+          "review_reference": "fictional-fixture-no-artwork",
+          "transformation": "none"
+        }
+      }
+    },
+    {
+      "id": "harbor-signal-pins-2026-04-lantern-lime",
+      "catalog_id": "harbor-signal-pins-2026",
+      "number": 4,
+      "name": "Lantern Lime",
+      "universe": "Harbor Signals",
+      "status": "active",
+      "artwork": {
+        "placeholder": true,
+        "rights": {"status": "unknown"},
+        "provenance": {
+          "reviewed_at": "2026-07-30",
+          "review_reference": "fictional-fixture-no-artwork",
+          "transformation": "none"
+        }
+      }
+    }
+  ]
+}

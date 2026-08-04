@@ -1,0 +1,111 @@
+{
+  "catalog": {
+    "id": "paper-orbit-stargazers-2026",
+    "brand": {
+      "id": "paper-orbit",
+      "name": "Paper Orbit Studio"
+    },
+    "name": "Stargazer Pins",
+    "edition": "2026",
+    "publication_status": "active",
+    "sort_order": 10,
+    "item_count": 3,
+    "universe_options": [
+      "Aurora",
+      "Comet",
+      "Moon"
+    ],
+    "artwork": {
+      "image_url": "/assets/collectible-placeholder.svg",
+      "alt_text": "Placeholder artwork for the fictional Stargazer Pins catalog.",
+      "width": 600,
+      "height": 600,
+      "source_url": "/assets/collectible-placeholder.svg",
+      "attribution": "$OOSHDAQ synthetic contract fixture; Apache-2.0 placeholder artwork.",
+      "rights_status": "original",
+      "license": "Apache-2.0",
+      "retrieved_at": "2026-07-30"
+    },
+    "member_summary": {
+      "available_designs": 1,
+      "wanted_designs": 1
+    }
+  },
+  "entries": [
+    {
+      "catalog_item": {
+        "id": "paper-orbit-stargazers-2026-001-comet-pin",
+        "catalog_id": "paper-orbit-stargazers-2026",
+        "catalog": {
+          "id": "paper-orbit-stargazers-2026",
+          "name": "Stargazer Pins",
+          "edition": "2026",
+          "publication_status": "active",
+          "brand": {
+            "id": "paper-orbit",
+            "name": "Paper Orbit Studio"
+          }
+        },
+        "number": 1,
+        "name": "Comet Pin",
+        "universe": "Comet",
+        "variant": "Silver trail",
+        "publication_status": "active",
+        "artwork": {
+          "image_url": "/assets/collectible-placeholder.svg",
+          "alt_text": "Placeholder artwork for the fictional Comet Pin.",
+          "width": 600,
+          "height": 600,
+          "source_url": "/assets/collectible-placeholder.svg",
+          "attribution": "$OOSHDAQ synthetic contract fixture; Apache-2.0 placeholder artwork.",
+          "rights_status": "original",
+          "license": "Apache-2.0",
+          "retrieved_at": "2026-07-30"
+        }
+      },
+      "owned": 3,
+      "available": 2,
+      "wanted": 0
+    },
+    {
+      "catalog_item": {
+        "id": "paper-orbit-stargazers-2026-002-moon-glider",
+        "catalog_id": "paper-orbit-stargazers-2026",
+        "catalog": {
+          "id": "paper-orbit-stargazers-2026",
+          "name": "Stargazer Pins",
+          "edition": "2026",
+          "publication_status": "active",
+          "brand": {
+            "id": "paper-orbit",
+            "name": "Paper Orbit Studio"
+          }
+        },
+        "number": 2,
+        "name": "Moon Glider",
+        "universe": "Moon",
+        "variant": "Blue sail",
+        "publication_status": "active",
+        "artwork": {
+          "image_url": "/assets/collectible-placeholder.svg",
+          "alt_text": "Placeholder artwork for the fictional Moon Glider.",
+          "width": 600,
+          "height": 600,
+          "source_url": "/assets/collectible-placeholder.svg",
+          "attribution": "$OOSHDAQ synthetic contract fixture; Apache-2.0 placeholder artwork.",
+          "rights_status": "original",
+          "license": "Apache-2.0",
+          "retrieved_at": "2026-07-30"
+        }
+      },
+      "owned": 0,
+      "available": 0,
+      "wanted": 1
+    }
+  ],
+  "page": {
+    "limit": 2,
+    "returned": 2,
+    "next_cursor": "eyJmaXh0dXJlIjoiY29sbGVjdGlvbi1wYWdlLTIifQ.Zml4dHVyZS1zaWduYXR1cmU"
+  }
+}

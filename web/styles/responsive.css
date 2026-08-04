@@ -1,0 +1,33 @@
+@media (max-width: 72rem) {
+  .catalog-grid,
+  .card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (forced-colors: active) {
+  .spinner,
+  .catalog-card,
+  .collectible-card,
+  .match-group,
+  .match-pending,
+  .match-ask--unfulfillable,
+  .button,
+  .field input,
+  .field select,
+  .nav-badge,
+  .state-toggle,
+  .collectible-art-toggle,
+  .happy-bean {
+    border: 1px solid CanvasText;
+  }
+
+  .collectible-card.is-unowned .collectible-art::after {
+    display: none;
+  }
+
+  .match-ask--unfulfillable .match-ask__art {
+    filter: none;
+    opacity: 1;
+  }
+}
