@@ -1,6 +1,6 @@
 # Keep the human-readable version and the digest together. Dependabot updates
 # the tag; reviewers verify and update the multi-platform digest.
-FROM docker.io/library/golang:1.26.5-alpine3.23@sha256:622e56dbc11a8cfe87cafa2331e9a201877271cbff918af53d3be315f3da88cc AS build
+FROM docker.io/library/golang:1.27.1-alpine3.23@sha256:d9e2f2f07b10cc922da3e80e035c3058810b328d5aef82d2c63680967c5e2ec9 AS build
 
 WORKDIR /src
 
