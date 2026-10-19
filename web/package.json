@@ -7,6 +7,6 @@
     "test:e2e": "NO_PROXY=127.0.0.1,localhost no_proxy=127.0.0.1,localhost PLAYWRIGHT_BROWSERS_PATH=.cache/ms-playwright playwright test --config=e2e/playwright.config.mjs"
   },
   "devDependencies": {
-    "@playwright/test": "1.62.0"
+    "@playwright/test": "1.64.1"
   }
 }
